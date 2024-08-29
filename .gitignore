@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Because no one needs to see your mistakes
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Secrets, secrets are no fun, secrets should be ignored by everyone
+.env
+.env.local
+.env.*.local
+
+# Stop spying on me, editor!
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+
+# Don't even think about it, Windows!
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Backup your work, not your embarrassment
+*.bak
+*.old
+*.tmp
+
+# The black hole of the project – beware!
+dumpster-fire/
+
+# Keep calm and ignore this
+ignore-me/
+not-this-one/
+
+# In case of emergency, break glass (but don’t commit these)
+*.key
+*.pem
+*.crt
